@@ -1,0 +1,39 @@
+{
+	"dependencies": [],
+	"description": "adds support for dynamic lists in the config of mods",
+	"extra": {
+		"godot": {
+			"authors": [
+				"kr1v"
+			],
+			"compatible_game_version": [],
+			"compatible_mod_loader_version": [
+				"6.2.0"
+			],
+			"config_schema": {
+				"$schema": "https://json-schema.org/draft/2020-12/schema",
+				"description": "Config",
+				"properties": {
+					"dynamicExample": {
+						"title": "example of a dynamic list in action",
+						"type": "string",
+						"default": "yourDefaultValueHere",
+						"enum": "yourArrayInModMainHere"
+					},
+				},
+				"title": "Config",
+				"type": "object"
+			},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": [ "util" ]
+		}
+	},
+	"name": "dynamicoptions",
+	"namespace": "kr1v",
+	"version_number": "1.0.0",
+	"website_url": ""
+}
